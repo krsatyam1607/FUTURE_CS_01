@@ -102,6 +102,7 @@ SQL Injection allows attackers to execute arbitrary SQL code by injecting malici
 
 - This payload uses a classic SQL injection trick. It always makes the condition true, so the website shows all user records by bypassing normal checks and displaying a list of users.
 - ![SQLi Payload show user records.png](./images/SQLi Payload show user records.png)
+<img src="assets/SQLi Payload show user records.png" width="300" />
 
 ```
 " OR "1"="1  
