@@ -414,10 +414,10 @@ A custom list of commonly used or guessed credentials was manually tested.
 - Screenshots of successful logins
 
 1. Username "admin" , Password "password"
-   <img src="admin.png" width="800" />
+   <img src="assets/admin.png" width="800" />
 
 2. Username "smithy" , Password "password"
-   <img src="smithy.png" width="800" />
+   <img src="assets/smithy.png" width="800" />
 
 3. Username "gordonb" , Password "abc123"
    <img src="assets/gordon.png" width="800" />
