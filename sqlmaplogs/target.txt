@@ -1,0 +1,1 @@
+http://localhost:80/DVWA/vulnerabilities/sqli/?id=admin&Submit=Submit (GET)  # /usr/bin/sqlmap -r login_request.txt --output-dir=/home/kali/Desktop/sqlmaplogs/

