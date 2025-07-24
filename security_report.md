@@ -7,7 +7,7 @@
 - [1.1 SQL Injection - Using SQLMap](#11-sql-injection---using-sqlmap)
 - [1.2 SQL Injection - Manual](#12-sql-injection---manual)
 - [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-xss)
-- [3. Authentication Flaws – Brute Force Attack (via Burp Suite)](#3-authentication-flaws--brute-force-attack-via-burp-suite)
+- [Authentication Flaws – Brute Force Attack via Burp Suite](#authentication-flaws--brute-force-attack-via-burp-suite)
 
 
 
@@ -376,7 +376,7 @@ Name:
 
 XSS is a common web security flaw that allows attackers to inject malicious scripts into websites, targeting users. It can lead to data theft, session hijacking, or site defacement. Prevent it by validating input, encoding output, and using security measures like CSP.
 
-# 3. Authentication Flaws – Brute Force Attack ( via Burp Suite)
+# 3. Authentication Flaws – Brute Force Attack via Burp Suite
 
 ### Objective
 
