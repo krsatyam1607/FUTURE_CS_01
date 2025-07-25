@@ -1,14 +1,20 @@
 
-
 # Content Map
-
-## 📄 Table of Contents
 
 - [1.1 SQL Injection - Using SQLMap](#11-sql-injection---using-sqlmap)
 - [1.2 SQL Injection - Manual](#12-sql-injection---manual)
 - [2. Cross-Site Scripting (XSS)](#2-cross-site-scripting-xss)
+  - [XSS Finding 1: Reflected XSS in `name` Parameter](#xss-finding-1-reflected-xss-in-name-parameter)
+  - [XSS Finding 2: Reflected XSS via `img` Tag](#xss-finding-2-reflected-xss-via-img-tag)
+  - [XSS Finding 3: Reflected XSS via `svg` Tag](#xss-finding-3-reflected-xss-via-svg-tag)
+  - [XSS Finding 4: Reflected XSS via `iframe` Tag](#xss-finding-4-reflected-xss-via-iframe-tag)
+  - [XSS Finding 5: Reflected XSS via `input` Tag with `type="image"`](#xss-finding-5-reflected-xss-via-input-tag-with-typeimage)
+  - [XSS Finding 6: Stored XSS via `script` Injection in Message Box](#xss-finding-6-stored-xss-via-script-injection-in-message-box)
+  - [XSS Finding 7: Stored XSS via `img` Tag Injection in Message Box](#xss-finding-7-stored-xss-via-img-tag-injection-in-message-box)
+  - [XSS Finding 8: Stored XSS via `svg` Tag Injection in Message Box](#xss-finding-8-stored-xss-via-svg-tag-injection-in-message-box)
+  - [XSS Finding 9: Stored XSS via `iframe` Tag with `javascript:` Source in Message Box](#xss-finding-9-stored-xss-via-iframe-tag-with-javascript-source-in-message-box)
+  - [XSS Finding 10: Stored XSS via `marquee` Tag with `onstart` Event in Message Box](#xss-finding-10-stored-xss-via-marquee-tag-with-onstart-event-in-message-box)
 - [3. Authentication Flaws – Brute Force Attack via Burp Suite](#3-authentication-flaws--brute-force-attack-via-burp-suite)
-
 
 
 # 1.1 SQL Injection - Using SQLMap
