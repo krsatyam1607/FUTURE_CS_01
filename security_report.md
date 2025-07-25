@@ -79,10 +79,10 @@ back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
 
 ## Recommended Mitigation
 
-- Always use prepared statements or ORM frameworks that securely handle query parameters.
+- Always use prepared statements that securely handle query parameters.
 - Strictly validate and sanitize all user inputs, especially those coming through GET/POST parameters.
 - Configure database accounts with only the minimum permissions needed for the application to run.
-- Avoid showing raw database errors to users; use generic and user-friendly error messages instead.
+- Avoid showing raw database errors to users, use generic and user-friendly error messages instead.
 
 
 ## Supporting Evidence
